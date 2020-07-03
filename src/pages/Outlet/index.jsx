@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Header from '../../components/Header'
+
 const Outlet = () => {
   return (
-    <div>
-      <header> Temp </header>
-      <h1> Outlet - Rango Seguro </h1>
-      <footer> Temp2 </footer>
+    <>
+      <Header />
 
       <Link to="/map-navigation">
         <strong>buscar no mapa</strong>
       </Link>
-    </div>
+    </>
   )
 }
 

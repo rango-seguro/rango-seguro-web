@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Header from '../../components/Header'
+
 const MapNavigation = () => {
   return (
-    <div>
-      <header> Temp </header>
-      <h1> MapNavigation - Rango Seguro </h1>
-      <footer> Temp2 </footer>
+    <>
+      <Header />
 
       <Link to="/outlet">
         <strong>ver lojas</strong>
       </Link>
-    </div>
+    </>
   )
 }
 

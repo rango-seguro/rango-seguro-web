@@ -1,17 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Container, Button } from './style'
+
+import Header from '../../components/Header'
+import logo from '../../assets/logo_test.jpeg'
 
 const Home = () => {
   return (
-    <div>
-      <header> Temp </header>
-      <h1> Home - Rango Seguro </h1>
-      <footer> Temp2 </footer>
+    <>
+      <Header />
 
-      <Link to="/map-navigation">
-        <strong>buscar</strong>
-      </Link>
-    </div>
+      <Container>
+        <div>
+          <img src={logo} alt="logo" width={'100%'} height={'50%'} />
+          <Link to="/map-navigation">
+            <Button> Procurar </Button>
+          </Link>
+        </div>
+      </Container>
+    </>
   )
 }
 
