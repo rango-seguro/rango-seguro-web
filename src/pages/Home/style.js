@@ -4,6 +4,7 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   height: 90%;
+  background: linear-gradient(0deg, #f7f7f7 0%, #fff 100%);
 `
 export const Button = styled.button`
   border-radius: 5px;
