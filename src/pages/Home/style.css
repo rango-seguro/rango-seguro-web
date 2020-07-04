@@ -1,0 +1,18 @@
+.searchButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.imgContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    float: none;
+    clear: both;
+}

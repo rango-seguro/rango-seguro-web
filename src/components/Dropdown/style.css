@@ -1,0 +1,27 @@
+.dd-list {
+    display: none;
+}
+
+.dd-header:focus .dd-list {
+    display: block;   
+}
+
+.dd-wrapper
+{
+    background: rgb(204,204,204);
+    background: linear-gradient(0deg, #f0f0f0 0%, #fff 100%);
+}
+
+.dd-header {
+    margin: 3px 8px 0 auto;
+    text-align: right;
+    width:200px
+}
+
+ul, li {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}

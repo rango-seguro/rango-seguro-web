@@ -5,6 +5,8 @@ import { Container, Button } from './style'
 import Header from '../../components/Header'
 import logo from '../../assets/logo.png'
 
+import './style.css'
+
 const Home = () => {
   return (
     <>
