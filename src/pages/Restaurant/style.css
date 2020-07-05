@@ -1,0 +1,74 @@
+.row-each {
+    flex-wrap: nowrap !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.golden-badge
+{
+
+  color:	#D5AD6D; /*if no support for background-clip*/
+	background: linear-gradient(transparent, transparent),
+             linear-gradient(top, #aa7a2a 0%, #e9ca2f 26%, rgba(226,186,120,1) 35%, #e9d460 45%, #c5b150 61%, #ffec8b 100%);
+	background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, #aa7a2a 0%, #e9ca2f 26%, rgba(226,186,120,1) 35%, #e9d460 45%, #c5b150 61%, #ffec8b 100%);
+	background: -o-linear-gradient(transparent, transparent);
+
+}
+
+.golden-inner
+{
+  color:#f5deb3;
+}
+
+.silver-badge {
+	color: #DADADA;
+	background: -linear-gradient(transparent, transparent),
+              -linear-gradient(top, #dadfe1 0%, #eee 26%, #bdc3c7 35%, #e8ecf1 45%, #ecf0f1 61%, #6c7a89 100%);
+	background: -webkit-linear-gradient(transparent, transparent),
+              -webkit-linear-gradient(top, #dadfe1 0%, #eee 26%, #bdc3c7 35%, #e8ecf1 45%, #ecf0f1 61%, #6c7a89 100%);
+	text-stroke: 1px darkgray;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 1px darkgray;
+}
+
+.silver-inner
+{
+  color:darkgray;
+}
+
+.bronze-badge
+{
+
+  color:	#D5AD6D; /*if no support for background-clip*/
+	background: linear-gradient(transparent, transparent),
+             linear-gradient(top, rgba(213,173,109,1) 0%,
+             rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%,
+             rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%,
+             rgba(213,173,109,1) 100%);
+	background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%,
+             rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%,
+             rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%,
+             rgba(213,173,109,1) 100%);
+  background-clip:text;
+  text-fill-color:transparent;
+  text-stroke: 1px darkgoldenrod;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px darkgoldenrod;
+}
+.bronze-inner
+{
+  color:#eccd98;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }

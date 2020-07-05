@@ -5,5 +5,4 @@ export const Container = styled.div`
   display: flex;
   height: 100vh;
 `
-export const Button = styled.button`
-`
+export const Button = styled.button``
