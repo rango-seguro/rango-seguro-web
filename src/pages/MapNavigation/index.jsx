@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Map, TileLayer, Popup, Marker, useLeaflet } from 'react-leaflet'
-import L from 'leaflet'
-import { renderToString } from 'react-dom/server'
+import { Map, TileLayer, Popup, Marker } from 'react-leaflet'
 
 import api from '../../services/api'
 
