@@ -5,7 +5,6 @@ import Header from '../../components/Header'
 
 import './style.css'
 
-
 import cover1 from '../../assets/cover1.png'
 import term from '../../assets/icon-term.png'
 import limpeza from '../../assets/badges/limpeza.png'

@@ -5,6 +5,7 @@ import './style.css'
 
 const Card = (props) => {
   return (
+
     <a href="/restaurant" alt="restaurant">
       <div className="card text-center m-3">
         <div className="overflow">
