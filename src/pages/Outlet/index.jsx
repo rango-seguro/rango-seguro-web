@@ -18,10 +18,10 @@ const Outlet = () => {
       </Link>
       <div className="row">
         <div className="col-md-6 col-sm-12 my-0">
-          <Card imgsrc={cover1}/>
+          <Card imgsrc={cover1} />
         </div>
         <div className="col-md-6 col-sm-12">
-          <Card imgsrc={cover2}/>
+          <Card imgsrc={cover2} />
         </div>
       </div>
     </>
