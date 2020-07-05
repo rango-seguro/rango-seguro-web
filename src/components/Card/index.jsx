@@ -12,14 +12,17 @@ return(
                 <img src={props.imgsrc} alt="imagem 1" className="col-sm-8 rounded-circle border-top border-danger w-50"/>
             </div>
         </div>
-        <div className="card-body-text-dark">
+        <div className="card-body text-dark">
             <h4 className="card-title">
                 <b>Le Mondiẽ</b>
                 <p className="card-text-secondary p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nihil, modi alias deserunt amet similique a ea at ducimus numquam!
                 </p>
-                <a href="#" className=" btn btn-primary">Go anywhere</a>
             </h4>
+            <div className="row">
+                <a href="#" className="btn btn-outline-danger col-sm-6">1,5 Km distante</a>
+                <a href="#" className="btn btn-outline-danger col-sm-6">100%</a>
+            </div>
         </div>
     </div>
     );
