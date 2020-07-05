@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import faca from '../../assets/faca.png'
 
 import './style.css'
 
 const Card = props =>{
 return(
+    <a href="/restaurant">
     <div className="card text-center m-3">
         <div className="overflow">
             <div className="row p-3">
@@ -20,11 +22,11 @@ return(
                 </p>
             </h4>
             <div className="row">
-                <a href="#" className="btn btn-outline-danger col-sm-6">1,5 Km distante</a>
-                <a href="#" className="btn btn-outline-danger col-sm-6">100%</a>
+                <a href="#" className="btn btn-outline-danger col-sm-6 disabled">1,5 Km distante</a>
+                <a href="#" className="btn btn-outline-success col-sm-6 disabled">100%</a>
             </div>
         </div>
-    </div>
+    </div></a>
     );
 }
 

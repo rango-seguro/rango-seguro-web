@@ -2,6 +2,10 @@ import React, {Component} from 'react'
 import Card from './index';
 import { render } from '@testing-library/react';
 
+import cover1 from '../../assets/cover1.png'
+import cover2 from '../../assets/cover2.png'
+import cover3 from '../../assets/cover3.png'
+
 class Cards extends Component {
     render() {
         return(
