@@ -1,7 +1,18 @@
 .dd-list {
     display: none;
+    position: fixed;
+    right: 5px;
+    z-index: 9999999;
+    width: 100px;
+    height: 60px;
+    background: #eeeeee;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
 }
 
+.dd-list li{
+    margin-left: -20px;
+}
 .dd-header:focus .dd-list {
     display: block;   
 }
@@ -20,6 +31,7 @@
 
 ul, li {
     list-style: none;
+    padding: 0 0.3em 0 0!important;
 }
 
 :focus {

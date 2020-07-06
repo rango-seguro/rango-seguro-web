@@ -13,7 +13,12 @@ const Outlet = () => {
       <Header />
 
       <Link to="/map-navigation">
-        <strong>buscar no mapa</strong>
+        <div className="text-right pr-1">
+          <strong>
+            {' '}
+            buscar no mapa <i class="fa fa-reply" />
+          </strong>
+        </div>
       </Link>
       <div className="row">
         <div className="col-md-6 col-sm-12 my-0">

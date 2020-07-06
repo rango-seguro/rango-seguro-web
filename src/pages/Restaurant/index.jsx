@@ -23,9 +23,24 @@ const Restaurant = () => {
     <>
       <Header />
 
-      <Link to="/map-navigation">
-        <strong>buscar no mapa</strong>
-      </Link>
+      <div className="row">
+        <div className="col  text-left">
+          <Link to="/outlet">
+            <strong className="pl-1">
+              {' '}
+              <i class="fa fa-reply" /> Voltar para as Lojas
+            </strong>
+          </Link>
+        </div>
+        <div className="col  text-right">
+          <Link to="/map-navigation">
+            <strong className="pr-1">
+              {' '}
+              buscar no mapa <i class="fa fa-arrow-up" />
+            </strong>
+          </Link>
+        </div>
+      </div>
 
       <div className="p-3">
         <div className="row row-each">

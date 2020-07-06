@@ -16,7 +16,7 @@ const Menu = (props) => {
       //const reactLink = renderToString(<Link to="/outlet"> Lojas </Link>)
 
       div.innerHTML = `
-        <a href="/outlet"> Lojas </a>
+        <a className="p-1" href="/outlet" data-toggle="tooltip" data-placement="top" title="Lojas"> <i class="fa fa-3x fa-cutlery"></i>  </a>
       `
       return div
     }
